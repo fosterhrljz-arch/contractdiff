@@ -1,0 +1,11 @@
+{
+  "originalTokens": 1244,
+  "revisedTokens": 1189,
+  "retainedOriginalTokenPercent": 95.5,
+  "symmetricTokenSimilarityPercent": 97.66,
+  "requiredChanges": [
+    "30 days -> 90 days",
+    "Clause 9 breach of contract liability removed in full"
+  ],
+  "fictional": true
+}

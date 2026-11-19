@@ -1,0 +1,28 @@
+{
+  "name": "contractdiff",
+  "version": "2.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/core.test.mjs tests/navigation.test.mjs tests/layout.test.mjs",
+    "test:browser": "node tests/workspace-browser.mjs",
+    "package": "node scripts/package.mjs",
+    "test:extended": "node tests/workspace-extended.mjs",
+    "test:layout": "node tests/workspace-layout.mjs",
+    "test:package": "node tests/package-launch.mjs"
+  },
+  "dependencies": {
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "fflate": "0.8.3",
+    "pdfjs-dist": "5.7.284",
+    "tesseract.js": "6.0.1",
+    "tesseract.js-core": "6.1.2",
+    "docx-preview": "0.3.7"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2",
+    "playwright": "1.65.0"
+  }
+}
